@@ -4,6 +4,7 @@ using System.Collections;
 public class AsteroidMover : MonoBehaviour {
 
     public float speed = 1.0f;
+    
 
 	void Update ()
     {
