@@ -10,5 +10,4 @@ public class AsteroidMover : MonoBehaviour{
     {
         transform.position = Vector3.MoveTowards(transform.position, transform.position + new Vector3(0.1f, 0, 0), Time.deltaTime * speed);
     }
-    
 }
